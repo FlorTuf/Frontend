@@ -1,2 +1,2 @@
 # Frontend
-Repositorio para el FrontEnd 2
+Repositorio para el FrontEnd 2.
