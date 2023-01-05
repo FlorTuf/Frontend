@@ -1,42 +1,129 @@
 * {
     font-family: 'Playfair Display', serif;
-    padding:0;
-    margin:0;
+    justify-content: baseline;
+
+    
 }
 
-h1{color: black;}
-h2{color: black;}
-p{color: black;}
-
-.mat-card{
-    border-radius:32px;
-    margin:10px 10px;
-    padding: 20px;
-    border-color:darkblue;
+ul{
+    list-style:none;
 }
 
-.mat-card#first-card{
-    padding:0;
+h1{
+color: black;
+text-align: left;
+font-size:35px;}
+
+h2{
+color: rgba(0, 0, 0, 0.904);
+text-align: left;
+font-size:20 px;}
+h3{
+    font-size:18px;
+}
+h4{
+    font-size:15px;
+}
+p{color: rgba(0, 0, 0, 0.449);
+text-align: left;}
+
+header{
+    background-color: rgb(101, 101, 94);
+    align-self: flex-start;
+    block-size: 5%;
 }
 
-div#profile-background{
+.logo{
+    align-self: baseline;
+
+}
+
+.info-actions{
+    margin-left: 690px;
+    padding-bottom: 10px;
+
+}
+
+.btn-primary{
+    align-self: flex-start;
+    margin-right: 10px;
+}
+.bi bi-github{
+    
+}
+.banner{
+    inset: 0;
+    block-size: 30%;
+    justify-items: stretch;
     display:flex;
     z-index:1;
+    height: 50%;
+    width: 100%;
+
 }
 
-div#profile-background img{
-    width:100%
-    border-radius: 30px 30px 0 0;
+
+
+section{
+    background-color: azure;
 }
 
 .profile-image{
-    border-radius: 50%;
-    width:150px;
-    height:150px;
-    margin-top:-100px;
-    z-index:1;
+    border-radius: 10px;
+    block-size: 20%;
+    width: 205px;
+    padding: 0px;
+    margin-top: 10px;
+    
 }
 
-div#info-actions{
-    display:flex;
+
+.info-data{
+    block-size:20%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color:rgb(174, 200, 225);
+    text-align: left;
+    margin-top: -180px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 220px;
+    padding-bottom:10px;
+    line-height: 5px;
+}
+
+.experiencia{
+    border-style: solid;
+    border-color: rgb(223, 185, 185);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.education{
+    border-style: solid;
+    border-color: rgb(223, 185, 185);
+    border-radius: 10px;
+    text-align: left;
+    line-height: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skills{
+    border-style: solid;
+    border-color: rgb(223, 185, 185);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.proyectos{
+    border-style: solid;
+    border-color: rgb(223, 185, 185);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: rgb(101, 101, 94);
+    block-size: 20%;
 }
